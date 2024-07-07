@@ -58,6 +58,7 @@ header img {
 .grid-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .grid-item img {
   max-width: 100%;
@@ -85,4 +86,11 @@ header img {
 }
 .article p {
   color: #666;
+}
+.article a:hover {
+  cursor: pointer;
+}
+.image-work{
+  width: 100%;
+  border-radius: 5px !important;
 }
